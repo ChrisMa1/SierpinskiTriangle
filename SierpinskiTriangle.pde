@@ -4,7 +4,6 @@ public void setup(){
 }
 int blah=0;
 public void draw(){
-  println(blah);
   sierpinski(400,700,blah);
   if(blah>1600&& blah%1600==0){
     blah=1600;  
